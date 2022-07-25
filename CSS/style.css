@@ -169,3 +169,48 @@ main .container-main img{
     margin: 100px auto;
     max-width: 900px;
 }
+
+/* footer */
+
+footer {
+    background-color: #0080ed;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+footer section{
+    display: flex;
+    justify-content: space-between;
+    max-width: 980px;
+    height: 300px;
+    margin: auto;
+}
+
+footer nav{
+    margin-right: 20px
+}
+
+footer nav .container-logo img{
+    width: 150px;
+}
+
+footer .social-media img{
+    width: 50px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+footer p{
+    color: white;
+}
+
+footer .copyrights p{
+    margin-top: 15px;
+    margin: 10px;
+
+}
+
+footer .info-contact p{
+    margin-bottom: 15px;
+}

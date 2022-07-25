@@ -43,7 +43,7 @@
 }
 
 @media(max-width: 630px){
-    nav{
+    header nav{
         display: none;
     }
 
@@ -102,4 +102,11 @@
         transform: rotate(45deg);
         top: 8px;
     }
+
+    footer section{
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+    }
+
 }
